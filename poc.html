@@ -1,8 +1,11 @@
 <html>
+
 <head>
-<meta name="viewport" content="initial-scale=1.0" />
+    <meta name="viewport" content="initial-scale=1.0" />
 </head>
-PAGE #1<br />
-<button onclick="history.back()">history.back()</button>
+<body>
+WEBPAGE #1<br />
+<button onclick="window.flutter_inappwebview.callHandler('nativeBack')">back (native)</button>
 <button onclick="location.href='poc2.html'">next page</button>
+</body>
 </html>
